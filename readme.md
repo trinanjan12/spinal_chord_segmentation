@@ -6,7 +6,7 @@ Given axial spine mri image we need to determine the canal diameter
 
 - Dataset used is https://data.mendeley.com/datasets/zbf6b4pttk/2 
 - Total number of spinal axial MRI images are 1545
-- The images annotations are shown below
+- The image annotations are shown below
 - 1) Intervertebral Disc (IVD) --> labeled with red color in the image shown below
 - 2) Posterior Element (PE) --> labeled with green color in the image shown below
 - 3) Thecal Sac (TS) and --> labeled with blue color in the image shown below
@@ -22,7 +22,7 @@ Given axial spine mri image we need to determine the canal diameter
 - Notebook link for training-> https://github.com/trinanjan12/spinal_chord_segmentation/blob/master/train_unet.ipynb
 - Notebook link for testing segmentation-> https://github.com/trinanjan12/spinal_chord_segmentation/blob/master/test.ipynb
 
-## Find canal diameter
+## Find canal diameter:
 
 - Once we have image parts correctly segmented , we can use geometry to find the canal diameter
 - We need to find the minimum point of the red area(Intervertebral Disc (IVD)) and the minimum point of the area between Anterior and Posterior (AAP) vertebrae elements (yellow area).
